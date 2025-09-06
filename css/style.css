@@ -408,6 +408,26 @@ tr:hover {
     }
 }
 
+.status-confirmed {
+    background: #4CAF50 !important;
+}
+
+.status-cancelled {
+    background: #f44336 !important;
+}
+
+.bookings-container {
+    display: grid;
+    gap: 20px;
+}
+
+small {
+    display: block;
+    margin-top: 5px;
+    color: #666;
+    font-size: 14px;
+}
+
 .routes-container {
     display: grid;
     gap: 20px;
