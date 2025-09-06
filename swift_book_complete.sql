@@ -1,8 +1,9 @@
 -- ===============================================
--- SWIFT BOOK - ONLINE TICKET RESERVATION SYSTEM
+-- SWIFT BOOK - COMPLETE DATABASE SETUP
+-- Online Ticket Reservation System
 -- ===============================================
 
--- CREATE DATABASE swift_book;
+CREATE DATABASE IF NOT EXISTS swift_book;
 USE swift_book;
 
 -- ===============================================

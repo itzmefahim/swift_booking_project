@@ -89,7 +89,7 @@ Swift Book is a comprehensive online ticket reservation system developed in PHP 
 
 2. **Import Database**
    ```bash
-   mysql -u swift_user -p swift_book < swift_book_database.sql
+   mysql -u swift_user -p swift_book < swift_book_complete.sql
    ```
 
 3. **Configuration**
@@ -119,7 +119,7 @@ Swift Book is a comprehensive online ticket reservation system developed in PHP 
 swift_book_project/
 ├── css/
 │   └── style.css              # Responsive styling
-├── swift_book_database.sql    # Complete database schema & data
+├── swift_book_complete.sql    # Complete database schema & data
 ├── db_connect.php            # Database connection
 ├── index.php                 # Main dashboard
 ├── login.php                 # User authentication
