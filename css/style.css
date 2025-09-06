@@ -408,6 +408,43 @@ tr:hover {
     }
 }
 
+.console {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.console textarea {
+    height: 120px;
+    font-family: monospace;
+}
+
+details {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+summary {
+    background: #f8f9fa;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #ddd;
+}
+
+.resultTable {
+    font-size: 14px;
+}
+
+.resultTable th {
+    background: #e3f2fd;
+}
+
 .status-confirmed {
     background: #4CAF50 !important;
 }
