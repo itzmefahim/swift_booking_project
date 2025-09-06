@@ -232,6 +232,83 @@ textarea {
     border-left: 4px solid #4CAF50;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+    table {
+        display: table;
+        white-space: normal;
+    }
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.table-container table {
+    display: table;
+    min-width: 600px;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    th, td {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
+
+th {
+    background: #f8f9fa;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+}
+
+tr:hover {
+    background: #f5f5f5;
+}
+
+.center {
+    text-align: center;
+}
+
+.table-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.delete-link {
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 12px;
+    white-space: nowrap;
+    background: #f44336;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .delete-link {
+        padding: 6px 12px;
+    }
+}
+
 /* Mobile-specific improvements */
 @media (max-width: 767px) {
     .container {
